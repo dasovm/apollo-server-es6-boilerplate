@@ -1,5 +1,5 @@
-import { ApolloServer, gql } from "apollo-server";
-import glue from "schemaglue";
+import { ApolloServer, gql } from 'apollo-server';
+import glue from 'schemaglue';
 
 const { schema, resolver } = glue('./src/graphql');
 
@@ -9,5 +9,5 @@ const server = new ApolloServer({
 });
 
 server.listen().then(({ url }) => {
-  console.log(`🍺 Server ready at ${url}`)
+  console.info(`🍺 Server ready at ${url}`);
 });

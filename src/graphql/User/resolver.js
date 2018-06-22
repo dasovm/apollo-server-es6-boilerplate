@@ -1,5 +1,5 @@
-import { getUsers, getUser, createUser } from "../../data/user";
-import { getPostsByUser } from "../../data/post";
+import { getUsers, getUser, createUser } from '../../data/user';
+import { getPostsByUser } from '../../data/post';
 
 export const resolver = {
   User: {
@@ -11,5 +11,5 @@ export const resolver = {
   },
   Mutation: {
     createUser: async (_, { name }) => createUser(name),
-  }
+  },
 };
