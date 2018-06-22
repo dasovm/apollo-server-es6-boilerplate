@@ -29,7 +29,7 @@
     ]
   },
   "scripts": {
-    "dev": "nodemon ./src/server.js -e js,graphql,json --exec babel-node"
+    "dev": "nodemon ./src/server.js --ignore 'src/generated.graphql' -e js,graphql,json --exec babel-node"
   },
   "author": "David Söderberg",
   "license": "MIT"
