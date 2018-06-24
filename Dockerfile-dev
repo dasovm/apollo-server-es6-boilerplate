@@ -13,9 +13,6 @@ RUN yarn install --no-lockfile --silent
 
 ADD src /app/src
 
-RUN yarn build
-RUN rm -rf /app/src
-
 EXPOSE 4000
 
-CMD ["yarn", "start"]
+CMD ["yarn", "dev"]

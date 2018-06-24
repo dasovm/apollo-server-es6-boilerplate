@@ -13,6 +13,7 @@
     "babel-eslint": "^8.2.3",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.12.0",
@@ -20,16 +21,12 @@
     "eslint-plugin-react": "^7.9.1",
     "nodemon": "^1.17.5"
   },
-  "babel": {
-    "presets": [
-      "env"
-    ],
-    "plugins": [
-      "transform-object-rest-spread"
-    ]
-  },
   "scripts": {
-    "dev": "nodemon ./src/server.js --ignore 'src/generated.graphql' -e js,graphql,json --exec babel-node"
+    "clean": "rm -rf dist && mkdir dist",
+    "dev": "cd src && nodemon ./server.js -e js,graphql,json --exec babel-node",
+    "build": "yarn run clean && BABEL_ENV=production babel src -d dist --copy-files",
+    "start": "cd dist && node ./server.js",
+    "serve": "yarn build && yarn start"
   },
   "author": "David Söderberg",
   "license": "MIT"
