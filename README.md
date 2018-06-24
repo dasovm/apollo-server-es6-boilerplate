@@ -4,6 +4,7 @@
 ```shell
 $ git clone https://github.com/dasovm/apollo-server-es6-boilerplate.git
 $ cd apollo-server-es6-boilerplate
+$ yarn
 ```
 
 ### Run locally
