@@ -532,7 +532,7 @@ axobject-query@^0.1.0:
   dependencies:
     ast-types-flow "0.0.7"
 
-babel-cli@^6.26.0:
+babel-cli@6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-cli/-/babel-cli-6.26.0.tgz#502ab54874d7db88ad00b887a06383ce03d002f1"
   dependencies:
@@ -585,7 +585,7 @@ babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.7"
 
-babel-eslint@^8.2.3:
+babel-eslint@8.2.5:
   version "8.2.5"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-8.2.5.tgz#dc2331c259d36782aa189da510c43dedd5adc7a3"
   dependencies:
@@ -1031,7 +1031,7 @@ babel-plugin-transform-minify-booleans@^6.9.4:
   version "6.9.4"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-minify-booleans/-/babel-plugin-transform-minify-booleans-6.9.4.tgz#acbb3e56a3555dd23928e4b582d285162dd2b198"
 
-babel-plugin-transform-object-rest-spread@^6.26.0:
+babel-plugin-transform-object-rest-spread@6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.26.0.tgz#0f36692d50fef6b7e2d4b3ac1478137a963b7b06"
   dependencies:
@@ -1091,7 +1091,7 @@ babel-polyfill@^6.26.0:
     core-js "^2.5.0"
     regenerator-runtime "^0.10.5"
 
-babel-preset-env@^1.7.0:
+babel-preset-env@1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/babel-preset-env/-/babel-preset-env-1.7.0.tgz#dea79fa4ebeb883cd35dab07e260c1c9c04df77a"
   dependencies:
@@ -1126,7 +1126,7 @@ babel-preset-env@^1.7.0:
     invariant "^2.2.2"
     semver "^5.3.0"
 
-babel-preset-minify@^0.4.3:
+babel-preset-minify@0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/babel-preset-minify/-/babel-preset-minify-0.4.3.tgz#b29c3dd6918905384598f092b955152e26a1fe0f"
   dependencies:
@@ -1810,7 +1810,7 @@ eslint-config-airbnb-base@^13.0.0:
     object.assign "^4.1.0"
     object.entries "^1.0.4"
 
-eslint-config-airbnb@^17.0.0:
+eslint-config-airbnb@17.0.0:
   version "17.0.0"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb/-/eslint-config-airbnb-17.0.0.tgz#1bb8c4255483320bb68c3b614f71ae6058b0b2db"
   dependencies:
@@ -1832,7 +1832,7 @@ eslint-module-utils@^2.2.0:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-import@^2.12.0:
+eslint-plugin-import@2.12.0:
   version "2.12.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.12.0.tgz#dad31781292d6664b25317fd049d2e2b2f02205d"
   dependencies:
@@ -1847,7 +1847,7 @@ eslint-plugin-import@^2.12.0:
     read-pkg-up "^2.0.0"
     resolve "^1.6.0"
 
-eslint-plugin-jsx-a11y@^6.0.3:
+eslint-plugin-jsx-a11y@6.0.3:
   version "6.0.3"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jsx-a11y/-/eslint-plugin-jsx-a11y-6.0.3.tgz#54583d1ae442483162e040e13cc31865465100e5"
   dependencies:
@@ -1859,7 +1859,7 @@ eslint-plugin-jsx-a11y@^6.0.3:
     emoji-regex "^6.1.0"
     jsx-ast-utils "^2.0.0"
 
-eslint-plugin-react@^7.9.1:
+eslint-plugin-react@7.9.1:
   version "7.9.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react/-/eslint-plugin-react-7.9.1.tgz#101aadd15e7c7b431ed025303ac7b421a8e3dc15"
   dependencies:
@@ -1883,7 +1883,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.19.1:
+eslint@4.19.1:
   version "4.19.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.19.1.tgz#32d1d653e1d90408854bfb296f076ec7e186a300"
   dependencies:
@@ -3268,7 +3268,7 @@ node-pre-gyp@^0.10.0:
     semver "^5.3.0"
     tar "^4"
 
-nodemon@^1.17.5:
+nodemon@1.17.5:
   version "1.17.5"
   resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.17.5.tgz#e6a665c872fdf09d48bf2a81f3e85f8cfb39322a"
   dependencies:
