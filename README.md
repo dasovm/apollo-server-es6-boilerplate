@@ -1,6 +1,15 @@
 # Apollo Server 2.0 ES6 Boilerplate
 
-### Get Boilerplate
+### Includes
+- Apollo Server 2.0
+- Babel (ES6, babel-preset-env)
+- ESLint
+- Nodemon (hot-reload)
+- Dockerfile
+- [Schemaglue](https://github.com/nicolasdao/schemaglue)-structure
+- Apollo Engine-ready
+
+### Get boilerplate
 ```shell
 $ git clone https://github.com/dasovm/apollo-server-es6-boilerplate.git
 $ cd apollo-server-es6-boilerplate
