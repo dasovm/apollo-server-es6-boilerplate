@@ -1,11 +1,11 @@
-import { ApolloServer, gql } from 'apollo-server';
-import glue from 'schemaglue';
+import { ApolloServer, gql } from "apollo-server";
+import glue from "schemaglue";
 
-const { schema, resolver } = glue('./graphql');
+const { schema, resolver } = glue("./graphql");
 
 const server = new ApolloServer({
   typeDefs: gql(schema),
-  resolvers: resolver,
+  resolvers: resolver
   // engine: {
   //   apiKey: "<APOLLO ENGINE API KEY HERE>"
   // },

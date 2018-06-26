@@ -15,18 +15,20 @@
     "babel-preset-env": "1.7.0",
     "babel-preset-minify": "0.4.3",
     "eslint": "5.0.1",
-    "eslint-config-airbnb": "17.0.0",
-    "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-jsx-a11y": "6.0.3",
-    "eslint-plugin-react": "7.10.0",
-    "nodemon": "1.17.5"
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-prettier": "^2.6.1",
+    "husky": "^0.14.3",
+    "nodemon": "1.17.5",
+    "prettier": "1.13.6",
+    "pretty-quick": "^1.6.0"
   },
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
     "dev": "cd src && nodemon ./server.js -e js,graphql,json --exec babel-node",
     "build": "yarn run clean && BABEL_ENV=production babel src -d dist --copy-files",
     "start": "cd dist && node ./server.js",
-    "serve": "yarn build && yarn start"
+    "serve": "yarn build && yarn start",
+    "precommit": "pretty-quick --staged"
   },
   "author": "David Söderberg",
   "license": "MIT"

@@ -1,4 +1,4 @@
-import posts from './posts';
+import posts from "./posts";
 
 const getPosts = async () => posts;
 
@@ -17,8 +17,4 @@ const getPostsByUser = async userId => {
   return userPosts;
 };
 
-export {
-  getPosts,
-  getPost,
-  getPostsByUser,
-};
+export { getPosts, getPost, getPostsByUser };

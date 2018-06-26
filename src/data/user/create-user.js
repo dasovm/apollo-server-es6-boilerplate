@@ -1,14 +1,12 @@
-import users from './users';
+import users from "./users";
 
 const createUser = async name => {
   const newUser = {
     id: `${users.length + 1}`,
-    name,
+    name
   };
   users.push(newUser);
   return newUser;
 };
 
-export {
-  createUser,
-};
+export { createUser };

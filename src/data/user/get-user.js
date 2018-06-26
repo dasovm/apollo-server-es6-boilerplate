@@ -1,4 +1,4 @@
-import users from './users';
+import users from "./users";
 
 const getUsers = async () => users;
 
@@ -9,7 +9,4 @@ const getUser = async id => {
   return null;
 };
 
-export {
-  getUsers,
-  getUser,
-};
+export { getUsers, getUser };

@@ -1,4 +1,4 @@
 module.exports = {
-  ...require('./get-post'),
-  ...require('./create-post'),
+  ...require("./get-post"),
+  ...require("./create-post")
 };

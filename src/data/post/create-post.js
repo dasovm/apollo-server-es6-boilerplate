@@ -1,5 +1,5 @@
-import posts from './posts';
-import { getUser } from '../user';
+import posts from "./posts";
+import { getUser } from "../user";
 
 const createPost = async (text, userId) => {
   const user = await getUser(userId);
@@ -9,12 +9,10 @@ const createPost = async (text, userId) => {
     id: `${posts.length + 1}`,
     text,
     likes: 0,
-    userId,
+    userId
   };
   posts.push(newPost);
   return newPost;
 };
 
-export {
-  createPost,
-};
+export { createPost };
