@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "./src/server.js",
   "dependencies": {
-    "apollo-server": "^2.0.0-rc.3",
+    "apollo-server": "^2.0.0-rc.6",
     "graphql": "^0.13.2",
     "lodash": "^4.17.10",
     "schemaglue": "^2.0.2"
