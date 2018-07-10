@@ -6,7 +6,7 @@
     "apollo-server": "^2.0.0-rc.6",
     "graphql": "^0.13.2",
     "lodash": "^4.17.10",
-    "schemaglue": "^2.0.2"
+    "schemaglue": "^4.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",

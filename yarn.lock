@@ -3590,9 +3590,9 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-schemaglue@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/schemaglue/-/schemaglue-2.0.2.tgz#5dbca8bcde4c9c34123fe3bddb68fc4d92ba9f0c"
+schemaglue@^4.0.0:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/schemaglue/-/schemaglue-4.0.1.tgz#7fc9baf010039d17985c215591499d881b4cc5b0"
   dependencies:
     glob "^7.1.2"
     shortid "^2.2.8"
