@@ -1,4 +1,4 @@
-FROM node:10-alpine@sha256:05d83a422bacdd7cdeed38c2943047eabb3743cf372e1ae5eb29f3169fed0337
+FROM node:10-alpine@sha256:60f531bebdb8023a1ecdcbb4ea5658eb499c1c71b4255ccbddf2d0277c947f93
 
 RUN apk update
 
